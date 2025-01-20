@@ -1,1 +1,8 @@
 /* File CSS untuk gaya aplikasi. */
+
+.title {
+    font-size: large;
+    font: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: sienna;
+}
