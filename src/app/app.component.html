@@ -1,7 +1,12 @@
 <!-- Template HTML yang menentukan tampilan aplikasi. -->
 <img [src]="nama_gambar" width="400">
-<button [disabled]="active"></button>
 
 <h2>{{ judul.toLocaleUpperCase() }}</h2>
 <h1 class="title">{{ title }}</h1>
 <p>component angular pertama</p>
+
+<!-- bisa mendeteksi event listener, seperti menekan tombol, gerakan mouse atau pointer  -->
+<button class="button-edit" [disabled]="active">Edit</button>
+
+<!-- event click -->
+<p><button class="button" (click)="hello()">Hallo Ngab</button></p> 
