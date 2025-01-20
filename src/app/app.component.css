@@ -6,3 +6,17 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: sienna;
 }
+
+.button {
+    background: firebrick;
+    color: wheat;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.button-edit {
+    background: blue;
+    color: wheat;
+    cursor: pointer;
+    padding: 5px;
+}
