@@ -16,4 +16,9 @@ export class AppComponent {
   title = 'Hello, World! nabil ganteng'
   nama_gambar = 'assets/mouse1.jpg'
   active = true
+
+  // function
+  hello() {
+    alert("Hello Angular Ngab.")
+  }
 }
