@@ -18,7 +18,10 @@ export class AppComponent {
   active = true
 
   // function
-  hello() {
-    alert("Hello Angular Ngab.")
+  hello(name ='string') { // parameternya diterima sebagai argument
+    // alertnya bisa ambil dari property yang ada
+    // alert(this.judul)
+
+    alert(`Hallo ${name.toLocaleUpperCase()}`)
   }
 }
