@@ -12,5 +12,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   // property
-  title = 'Hello, World! nabil ganteng';
+  judul = "Projek Angular Pertama"
+  title = 'Hello, World! nabil ganteng'
+  nama_gambar = 'assets/mouse1.jpg'
+  active = true
 }
