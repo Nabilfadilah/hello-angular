@@ -15,7 +15,7 @@ export class AppComponent {
   judul = "Projek Angular Pertama"
   title = 'Hello, World! nabil ganteng'
   nama_gambar = 'assets/mouse1.jpg'
-  active = true
+  active = true; // Nilai awal
 
   // function
   hello(name ='string') { // parameternya diterima sebagai argument
@@ -23,5 +23,9 @@ export class AppComponent {
     // alert(this.judul)
 
     alert(`Hallo ${name.toLocaleUpperCase()}`)
+  }
+
+  onEditClick() {
+    this.active = !this.active; // Toggle nilai active
   }
 }
